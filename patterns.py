@@ -269,3 +269,15 @@ for i in range(0,n+1):
     for j in range(2,i+1):
         print(j,end="")
     print()
+
+
+#---- 0WN ------
+
+for i in range (1,10):
+    for j in range(10-i-1):
+        print(" ",end=" ")
+    for j in range(i,0,-1):
+        print(j,end=" ")
+    for j in range(2,i+1):
+        print(j,end=" ")
+    print()
